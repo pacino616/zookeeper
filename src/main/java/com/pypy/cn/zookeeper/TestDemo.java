@@ -1,10 +1,9 @@
-package com.tedu.cn.zookeeper;
+package com.pypy.cn.zookeeper;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.zookeeper.*;
 import org.junit.Before;
 import org.junit.Test;
-
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
