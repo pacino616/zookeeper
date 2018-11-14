@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="628ab642-e6ef-4a8b-81bb-810a942ec6a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedu/cn/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pypy/cn/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tedu/cn/zookeeper/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pypy/cn/zookeeper/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pypy/cn/zookeeper/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pypy/cn/zookeeper/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,6 +57,27 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="199006623py" value="1" />
+          <entry key="pub" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="11" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -64,10 +85,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pypy/cn/zookeeper/TestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="293">
+              <caret line="79" column="48" lean-forward="true" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#608#904#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#2074#2885#0" expanded="true" />
+                <element signature="e#2884#2885#0" expanded="true" />
+                <element signature="e#3051#3306#0" expanded="true" />
+                <element signature="e#3305#3306#0" expanded="true" />
+                <element signature="e#3547#4919#0" expanded="true" />
+                <element signature="e#4071#4500#0" expanded="true" />
+                <element signature="e#4499#4500#0" expanded="true" />
+                <element signature="e#4918#4919#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,21 +107,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.7/zookeeper-3.4.7-sources.jar!/org/apache/zookeeper/WatchedEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            <state relative-caret-position="29">
+              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
               <folding>
                 <element signature="e#2110#2111#0" expanded="true" />
                 <element signature="e#2142#2143#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -112,6 +134,7 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/tedu/cn/zookeeper/TestDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pypy/cn/zookeeper/TestDemo.java" />
       </list>
     </option>
   </component>
@@ -588,68 +611,17 @@
           <expand>
             <path>
               <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="zookeeper" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
               <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="zookeeper" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pypy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pypy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="pypy" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="cn" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="zookeeper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="zookeeper" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="zookeeper" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="zookeeper" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -660,7 +632,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542189198299" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542191123696" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -681,8 +653,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDemo.watchChildChanged">
-    <configuration name="TestDemo.deleteNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestDemo.createNode">
+    <configuration name="TestDemo.createNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zookeeper" />
       <extension name="coverage">
         <pattern>
@@ -690,9 +662,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tedu.cn.zookeeper" />
+      <option name="PACKAGE_NAME" value="com.pypy.cn.zookeeper" />
       <option name="MAIN_CLASS_NAME" value="com.tedu.cn.zookeeper.TestDemo" />
-      <option name="METHOD_NAME" value="deleteNode" />
+      <option name="METHOD_NAME" value="createNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -763,19 +735,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestDemo.deleteNode" />
       <item itemvalue="JUnit.TestDemo.getChildNode" />
       <item itemvalue="JUnit.TestDemo.watchDateChange" />
       <item itemvalue="JUnit.TestDemo.watchDelete" />
       <item itemvalue="JUnit.TestDemo.watchChildChanged" />
+      <item itemvalue="JUnit.TestDemo.createNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDemo.createNode" />
         <item itemvalue="JUnit.TestDemo.watchChildChanged" />
         <item itemvalue="JUnit.TestDemo.watchDelete" />
         <item itemvalue="JUnit.TestDemo.watchDateChange" />
         <item itemvalue="JUnit.TestDemo.getChildNode" />
-        <item itemvalue="JUnit.TestDemo.deleteNode" />
       </list>
     </recent_temporary>
   </component>
@@ -790,14 +762,11 @@
       <option name="presentableId" value="Default" />
       <updated>1542180265446</updated>
       <workItem from="1542180270351" duration="6730000" />
-      <workItem from="1542187899196" duration="1359000" />
+      <workItem from="1542187899196" duration="2488000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDemo_deleteNode - 2018.11.14 at 16h 28m 30s.xml">
-      <configuration name="TestDemo.deleteNode" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDemo_getChildNode - 2018.11.14 at 16h 35m 00s.xml">
       <configuration name="TestDemo.getChildNode" configurationId="JUnit" />
     </history-entry>
@@ -825,14 +794,18 @@
     <history-entry file="TestDemo_watchChildChanged - 2018.11.14 at 17h 06m 40s.xml">
       <configuration name="TestDemo.watchChildChanged" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDemo_createNode - 2018.11.14 at 18h 04m 25s.xml">
+      <configuration name="TestDemo.createNode" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8089000" />
+    <option name="totallyTimeSpent" value="9218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24932976" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -841,7 +814,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3512748" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3503546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -859,7 +832,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.101876676" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.20040214" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
@@ -905,10 +878,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/zookeeper/zookeeper/3.4.7/zookeeper-3.4.7-sources.jar!/org/apache/zookeeper/WatchedEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="29">
+          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
           <folding>
             <element signature="e#2110#2111#0" expanded="true" />
             <element signature="e#2142#2143#0" expanded="true" />
@@ -916,19 +896,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/199006623py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/199006623py.pub">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/pypy/cn/zookeeper/TestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="293">
+          <caret line="79" column="48" lean-forward="true" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#608#904#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#2074#2885#0" expanded="true" />
+            <element signature="e#2884#2885#0" expanded="true" />
+            <element signature="e#3051#3306#0" expanded="true" />
+            <element signature="e#3305#3306#0" expanded="true" />
+            <element signature="e#3547#4919#0" expanded="true" />
+            <element signature="e#4071#4500#0" expanded="true" />
+            <element signature="e#4499#4500#0" expanded="true" />
+            <element signature="e#4918#4919#0" expanded="true" />
           </folding>
         </state>
       </provider>

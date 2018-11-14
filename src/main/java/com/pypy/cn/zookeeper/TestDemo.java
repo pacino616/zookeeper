@@ -75,6 +75,7 @@ public class TestDemo {
                         try {
                             byte[] data = zk.getData("/park01", null, null);
                             System.out.println("变化数据："+new String(data));
+                            System.out.println("改变一下");
                         } catch (KeeperException e) {
                             e.printStackTrace();
                         } catch (InterruptedException e) {
