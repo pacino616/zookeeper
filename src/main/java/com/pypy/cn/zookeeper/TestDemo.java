@@ -19,7 +19,7 @@ public class TestDemo {
     public void Connect() throws Exception {
         //通过闭锁，将一个非阻塞链接变为阻塞链接
         final CountDownLatch cdl = new CountDownLatch(1);
-        zk = new ZooKeeper("192.168.80.72:2181", 3000, new Watcher() {
+        zk = new ZooKeeper("192.168.80.72:2181,192.168.80.73:2181,192.168.80.74:2181", 3000, new Watcher() {
             @Override
             public void process(WatchedEvent event) {
                 if(event.getState().equals(Event.KeeperState.SyncConnected)){
@@ -33,7 +33,7 @@ public class TestDemo {
 
     @Test
     public void createNode() throws KeeperException, InterruptedException {
-        zk.create("/park01","hello".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
+        zk.create("/park07","hello07".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE, CreateMode.PERSISTENT);
     }
 
     @Test
